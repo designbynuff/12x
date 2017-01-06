@@ -1,0 +1,52 @@
+/* SASS Colour Declarations for another day?
+$dark-grey: #25252D;
+$medium-grey:#8E96AD;
+$light-grey: #D9DCE7;
+$accent: #EC8D50;
+$purple-blue: #3C3C97;
+$purple-red: #B172B0;
+*/
+
+
+body{
+  background-color: #25252D;
+  color: #D9DCE7;
+  font-family: "courier-prime", monospace;
+}
+
+h1{
+  font-size: 2.5em;
+  color: #EC8D50;
+  letter-spacing: 0.2em;
+  line-height: 1.5;
+  padding-bottom: 0.5em;
+}
+
+p{
+  letter-spacing: 0.05em;
+  line-height: 1.5;
+  padding-bottom: 0.25em;
+}
+
+.center-block{
+  float: none;
+}
+
+.padded{
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+a, a:hover, a:focus, a:active, a:visited{
+  text-decoration: none;
+	color: #EC8D50;
+}
+
+a:hover, a:focus{
+  border-bottom: 0.25rem solid;
+  transition: 0.2s ease;
+}
+
+.signup{
+  background-color: #383840;
+}
