@@ -37,6 +37,15 @@ p{
   padding-bottom: 4em;
 }
 
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
 a, a:hover, a:focus, a:active, a:visited{
   text-decoration: none;
 	color: #EC8D50;
@@ -49,4 +58,33 @@ a:hover, a:focus{
 
 .signup{
   background-color: #383840;
+}
+
+/* Mailchimp Form Styling */
+#mc_embed_signup{
+  clear:left;
+  width:100%;
+}
+
+form > div {
+  position: relative;
+}
+form > div > label {
+  position: absolute;
+}
+
+#mce-email{
+  background-color: transparent;
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 1em 4em;
+  margin-bottom: 1em;
+}
+
+#mc-embedded-subscribe{
+  border-radius: 4px;
+    padding: 0.5em 2em;
+    color: #fff;
+    background-color: #EC8D50;
+    border: none;
 }
