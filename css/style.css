@@ -7,6 +7,9 @@ $purple-blue: #3C3C97;
 $purple-red: #B172B0;
 */
 
+html{
+  font-size: 16px;
+}
 
 body{
   background-color: #25252D;
@@ -15,39 +18,39 @@ body{
 }
 
 h1{
-  font-size: 2.5em;
+  font-size: 2.5rem;
   color: #EC8D50;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.2rem;
   line-height: 1.5;
-  padding-bottom: 0.5em;
+  padding-bottom: 0.5rem;
 }
 
 h2{
-  font-size: 1.5em;
+  font-size: 1.5rem;
   color: #EC8D50;
-  letter-spacing: 0.35em;
+  letter-spacing: 0.35rem;
   text-transform: uppercase;
 }
 
 h3{
-  font-size: 1em;
-  letter-spacing: 0.5em;
+  font-size: 1rem;
+  letter-spacing: 0.5rem;
   text-transform: uppercase;
 }
 
 p{
-  font-size: 1em;
-  letter-spacing: 0.05em;
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
   line-height: 1.5;
-  padding-bottom: 0.5em;
+  padding-bottom: 0.5rem;
 }
 
 .divider {
     display: block;
-    width: 4em;
-    height: 0.25em;
-    box-shadow: inset 0 0.25em 0 0;
-    margin: 10em auto 10em;
+    width: 4rem;
+    height: 0.25rem;
+    box-shadow: inset 0 0.25rem 0 0;
+    margin: 10rem auto 10rem;
 }
 
 .overlay{
@@ -59,8 +62,8 @@ p{
 }
 
 .padded{
-  padding-top: 4em;
-  padding-bottom: 4em;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .full-width {
@@ -85,11 +88,11 @@ a:hover, a:focus{
 figcaption{
   font-family: 'Cardo', serif;
   text-transform: uppercase;
-  font-size: 0.75em;
-  letter-spacing: 0.25em;
+  font-size: 0.5rem;
+  letter-spacing: 0.2rem;
   color: #8E96AD;
   opacity: 0.5;
-  padding: 1em 0;
+  padding: 1rem 0;
 }
 
 .signup{
@@ -100,19 +103,19 @@ figcaption{
 .footer{
   background-color: #D9DCE6;
   color: #8E96AD;
-  padding-top: 1em;
+  padding-top: 1rem;
 }
 
 @media screen and (min-width: 1024px) {
 
   .anchor{
-    positin: relative;
+    position: relative;
   }
 
   .overlap-right{
     position: absolute;
     z-index: 3;
-    left: 80%;
+    left: 40%;
     top: 10%;
     max-width: 100%;
   }
@@ -134,24 +137,47 @@ figcaption{
   width:100%;
 }
 
-form > div {
+.mc-field-group {
   position: relative;
 }
-form > div > label {
+.mc-field-group > label {
   position: absolute;
+  left: 0;
+  top: 0;
 }
 
-#mce-email{
+input:focus + label {
+  /* do something with the label */
+}
+
+form.go-bottom label {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  transition: 0.2s;
+}
+form.go-bottom input:focus + label{
+  top: 100%;
+  margin-top: -16px;
+}
+
+form input:valid {
+  background: white;
+}
+
+/* #mce-email{
   background-color: transparent;
   border: 1px solid #000;
   border-radius: 4px;
-  padding: 1em 4em;
-  margin-bottom: 1em;
-}
+  padding: 1rem 4rem;
+  margin-bottom: 1rem;
+} */
 
 #mc-embedded-subscribe{
   border-radius: 4px;
-    padding: 0.5em 2em;
+    padding: 0.5rem 2rem;
     color: #fff;
     background-color: #EC8D50;
     border: none;
