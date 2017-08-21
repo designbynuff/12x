@@ -83,6 +83,7 @@ p{
   margin-right: -50vw;
 }
 
+/*Links*/
 a, a:hover, a:focus, a:active, a:visited{
   text-decoration: none;
 	color: #EC8D50;
@@ -90,7 +91,7 @@ a, a:hover, a:focus, a:active, a:visited{
 
 a:hover, a:focus{
   border-bottom: 0.25rem solid;
-  transition: 0.1s ease;
+  transition: all 0.2s ease 0s;
 }
 
 a img{
