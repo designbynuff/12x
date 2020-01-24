@@ -17,7 +17,15 @@ body{
   font-family: "courier-prime", monospace;
 }
 
+/* All headings alverata
+h1, h2, h3, h4, h5, h6{
+  font-family: "alverata-irregular", serif;
+}
+  */
+}
+
 h1{
+  font-family: "alverata", serif;
   font-size: 2.5rem;
   color: #EC8D50;
   letter-spacing: 0.2rem;
