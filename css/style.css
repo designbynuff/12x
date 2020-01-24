@@ -115,6 +115,19 @@ a img:hover, a img:focus, a img:active, a img:visited{
   text-decoration: none;
 }
 
+a.btn-orange{
+    border-radius: 4px;
+    padding: 0.5rem 2rem;
+    color: #25252D;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    background-color: #EC8D50;
+    border: none;
+    width: 20rem;
+    max-width: 100%;
+}
+
 figcaption{
   font-family: 'Cardo', serif;
   text-transform: uppercase;
@@ -226,4 +239,28 @@ form input:valid {
     border: none;
     width: 20rem;
     max-width: 100%;
+}
+
+/*Tinyletter Formatting*/
+#tlemail{
+  border-radius: 4px;
+  width: 20rem;
+  padding: 0.2rem 2rem;
+  color: #383740;
+}
+
+#subscribe{
+  padding: 0.2rem 2rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  background-color: #EC8D50;
+  color: #25252D;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  border: none;
+  height: 2.5rem;
+  width: 20rem;
+  max-width: 100%;
+
 }
